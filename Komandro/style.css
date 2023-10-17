@@ -1,0 +1,10 @@
+
+  :root[data-theme="dark"] {
+    --text: #f3fcf4;
+    --background: #030c03;
+    --primary: #2dae36;
+    --secondary: #124515;
+    --accent: #51d259;
+  }
+  
+  
