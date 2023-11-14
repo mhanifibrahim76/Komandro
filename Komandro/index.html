@@ -17,10 +17,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="ioc/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="ioc/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="ioc/favicon-16x16.png">
-    <link rel="manifest" href="ioc/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="ioc/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="ioc/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="ioc/favicon-16x16.png"
+    />
+    <link rel="manifest" href="ioc/site.webmanifest" />
   </head>
   <body>
     <!-- ////////////////////////////////////////////////////////////////////////////////////////
@@ -29,11 +43,13 @@
     <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img
+          <!--
+            <img
             src="images/LogoKomandro.png"
             alt="logo image"
             style="height: 70px"
           />
+          -->
           <h3>KOMANDRO</h3>
         </a>
         <button
@@ -56,19 +72,25 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About us</a>
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropbtn" href="#"
+                >Kelas
+                <i
+                  class="fas fa-regular fa-caret-down"
+                  style="color: #81e360"
+                ></i
+              ></a>
+              <div class="dropdown-content">
+                <a href="#kelas1">Web Dev</a>
+                <a href="#kelas2">Android Dev</a>
+                <a href="#kelas3">IoT</a>
+                <a href="#kelas3">UI/UX</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#vimi">Visi/Misi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#kelas">Kelas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#faq">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sosmed">Social Media</a>
+              <a class="nav-link" href="#">Project</a>
             </li>
           </ul>
         </div>
@@ -92,11 +114,11 @@
                 :)
               </span>
             </h1>
-            <a href="#about" style="text-decoration: none"
+            <!-- <a href="#about" style="text-decoration: none"
               ><button type="button" class="rounded-pill btn-rounded">
                 Let's goo! (>.<)
                 <span><i class="fas fa-arrow-right"></i></span></button
-            ></a>
+            ></a> -->
           </div>
           <!-- START THE CONTENT FOR THE ALTER VIDEO -->
           <div class="col-md-6 intros text-end">
@@ -150,12 +172,12 @@
                          START SECTION 4 - THE SERVICES UWU
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
     <section id="services" class="services">
-      <div class="container">
+      <!-- <div class="container">
         <div class="row text-center">
           <h1 class="display-3 fw-bold">Sejarah Komandro</h1>
           <div class="heading-line mb-1"></div>
         </div>
-        <!-- START THE DESCRIPTION CONTENT OWO -->
+        
         <div class="col">
           <div class="p-2 text-center d-flex align-items-center">
             <h3 class="fw-light" id="vimi">
@@ -225,7 +247,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- START THE CONTENT FOR THE SERVICES  -->
       <div class="container mt-5">
@@ -598,7 +620,7 @@
                               START SECTION 6 - THE SOCIAL MEDIA UWU
 //////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-    <section id="sosmed" class="portfolio">
+    <!-- <section id="sosmed" class="portfolio">
       <div class="container">
         <div class="row text-center mt-5">
           <h1 class="display-3 fw-bold text-capitalize">Social Media</h1>
@@ -609,7 +631,7 @@
           </p>
         </div>
 
-        <!-- START THE MEDSOS ITEMS UWU -->
+        
         <div class="row">
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="carddearu">
@@ -839,7 +861,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                            START SECTION 7 - THE FOOTER OWO
