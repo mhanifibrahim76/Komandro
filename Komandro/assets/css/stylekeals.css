@@ -1,0 +1,339 @@
+.card.card-carousel {
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px ;
+    color: rgba(0,0,0,.87);
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.card.card-carousel img{
+    border-radius: 6px;
+}
+
+
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel .carousel-indicators {
+    bottom: 5px;
+}
+
+.carousel .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+    border-radius: 2px;
+}
+
+.carousel .carousel-indicators .active{
+    margin: 11px 10px; 
+} 
+
+.carousel .carousel-indicators li {
+    margin: 11px 10px;
+}
+
+.carousel .carousel-indicators .active {
+    margin-top: 10px;
+    transform: scale(1.5);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    align-items: center;
+    width: 100% !important;
+    transition: transform .6s ease;
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel .carousel-caption {
+    padding-bottom: 45px;
+}
+
+.carousel .carousel-caption .material-icons {
+    position: relative;
+    top: 5px;
+}
+
+.carousel .carousel-control-next .material-icons{
+    z-index: 5;
+    display: inline-block;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    margin: auto;
+}
+
+.carousel .carousel-control-prev .material-icons {
+    z-index: 5;
+    display: inline-block;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    margin: auto;
+}
+.footer p{
+    margin-bottom: 0;
+}
+footer p a{
+    color: #555;
+    font-weight: 400;
+}
+
+footer p a:hover{
+    color: #9f26aa;
+    text-decoration: none;
+}
+
+
+
+
+
+.carousel-control-prev-guh, .carousel-control-next-guh{
+    /*background: black;*/
+    width: 4.5% !important;
+    transition: opacity .2s ease-in;
+}
+.carousel-control-next-icon-guh {
+    background-image: url(https://image.flaticon.com/icons/svg/481/481146.svg) !important;
+    transform: rotate(180deg);
+}
+.carousel-control-prev-icon-guh {
+    background-image: url(https://image.flaticon.com/icons/svg/481/481146.svg) !important;
+}
+.carousel-control-next-icon-guh, .carousel-control-prev-icon-guh {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+.carousel-control-next-guh{right:-70px;}
+.carousel-control-prev-guh{left:-70px;}
+.bisc-guh {
+    color: white;
+    margin-right: 0px;
+    background: -webkit-gradient(linear, right top, left bottom, from(#4c68d7), color-stop(#8a3ab9), color-stop(#cd486b), color-stop(#fb8750), to(#FF9800));
+    background: -webkit-linear-gradient(right top, #4c68d7, #8a3ab9, #cd486b, #fb8750, #FF9800);
+    background: -o-linear-gradient(right top, #4c68d7, #8a3ab9, #cd486b, #fb8750, #FF9800);
+    background: linear-gradient(to left bottom, #4c68d7, #8a3ab9, #cd486b, #fb8750, #FF9800);
+    -webkit-transform: rotate(360deg) scale(1.1);
+    -ms-transform: rotate(360deg) scale(1.1);
+    transform: rotate(360deg) scale(1.1);
+}
+        
+        #demo {
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .green-guh {
+            background-color: #6fb936;
+        }
+        
+        .page-top-guh {
+            margin-top: 150px;
+        }
+        
+        .portfolio-item-guh {
+            margin-bottom: 30px;
+        }
+        
+        .card-guh {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: none;
+            border-radius: .25rem;
+        }
+        
+        .myback-img-guh {
+            display: flex;
+            justify-content: center;
+            height: 372px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: .25rem;
+        }
+        
+        .myoverlay-guh {
+            position: absolute;
+            background: -webkit-linear-gradient( top, transparent 0%, rgba(0, 0, 0, 0.72) 100%);
+            height: 100%;
+            width: 100%;
+            top: 0;
+        }
+        
+        .card-body-guh {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            padding: 0;
+        }
+        
+        .avatar-profile-guh img {
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            overflow: hidden;
+            opacity: 0.9;
+            object-fit: cover;
+            -o-object-fit: cover;
+        }
+        
+        .borders-guh {
+            position: relative;
+            border: 5px solid #fff;
+            border-radius: 100%;
+        }
+        
+        .borders-guh:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 100%;
+            background-image: linear-gradient(90deg, #FDA240, #C5087E), linear-gradient(90deg, #FDA240, #C5087E);
+            background-position: 0 0px, 100% 100%;
+            background-size: 100% 5px;
+            border-left: 5px solid #FDA240;
+            border-right: 5px solid #C5087E;
+            padding: 10px 5px;
+        }
+        
+        .profile-img-guh {
+            position: absolute;
+            top: 71%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .profile-title-guh {
+            text-align: center;
+            position: relative;
+            top: -39px;
+            margin-bottom: -26px;
+        }
+        
+        .profile-title-guh h3 {
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+        
+        a:hover {
+            text-decoration: none !important;
+        }
+        /*--carousel css--*/
+        
+        @media (min-width: 768px) {
+            /* show 3 items */
+            .carousel-inner-guh .active-guh,
+            .carousel-inner-guh .active-guh + .carousel-item-guh,
+            .carousel-inner-guh .active-guh + .carousel-item-guh + .carousel-item-guh,
+            .carousel-inner-guh .active-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh {
+                display: block;
+            }
+            .carousel-inner-guh .carousel-item-guh.active-guh:not(.carousel-item-right-guh):not(.carousel-item-left-guh),
+            .carousel-inner-guh .carousel-item-guh.active-guh:not(.carousel-item-right-guh):not(.carousel-item-left-guh) + .carousel-item-guh,
+            .carousel-inner-guh .carousel-item-guh.active-guh:not(.carousel-item-right-guh):not(.carousel-item-left-guh) + .carousel-item-guh + .carousel-item-guh,
+            .carousel-inner-guh .carousel-item-guh.active-guh:not(.carousel-item-right-guh):not(.carousel-item-left-guh) + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh {
+                transition: none;
+            }
+            .carousel-inner-guh .carousel-item-next-guh,
+            .carousel-inner-guh .carousel-item-prev-guh {
+                position: relative;
+                transform: translate3d(0, 0, 0);
+            }
+            .carousel-inner-guh .active.carousel-item-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh {
+                position: absolute;
+                top: 0;
+                right: -25%;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+            }
+            /* left or forward direction */
+            .active-guh.carousel-item-left-guh + .carousel-item-next-guh.carousel-item-left-guh,
+            .carousel-item-next-guh.carousel-item-left-guh + .carousel-item-guh,
+            .carousel-item-next-guh.carousel-item-left-guh + .carousel-item-guh + .carousel-item-guh,
+            .carousel-item-next-guh.carousel-item-left-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh,
+            .carousel-item-next-guh.carousel-item-left-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh {
+                position: relative;
+                transform: translate3d(-100%, 0, 0);
+                visibility: visible;
+            }
+            /* farthest right hidden item must be abso position for animations */
+            .carousel-inner-guh .carousel-item-prev.carousel-item-right-guh {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+            }
+            /* right or prev direction */
+            .active-guh.carousel-item-right-guh + .carousel-item-prev-guh.carousel-item-right-guh,
+            .carousel-item-prev-guh.carousel-item-right-guh + .carousel-item-guh,
+            .carousel-item-prev-guh.carousel-item-right-guh + .carousel-item-guh + .carousel-item-guh,
+            .carousel-item-prev-guh.carousel-item-right-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh,
+            .carousel-item-prev-guh.carousel-item-right-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh + .carousel-item-guh {
+                position: relative;
+                transform: translate3d(100%, 0, 0);
+                visibility: visible;
+                display: block;
+                visibility: visible;
+            }
+        }

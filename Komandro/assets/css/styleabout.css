@@ -206,4 +206,8 @@
   .carousel-indicators li.active {
     background: #555;
   }
+  .carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: flex;
+    align-items: center;
+}
 }
