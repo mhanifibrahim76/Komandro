@@ -1,3 +1,11 @@
+:root{
+    --text: #030c04;
+    --background: #f3fcf3;
+    --primary: #51d259;
+    --secondary: #baedbd;
+    --accent: #2dae36;
+}
+
 .card.card-carousel {
     border: 0;
     margin-bottom: 30px;
@@ -356,7 +364,7 @@
 }
 
 .service-item:hover .service-icon {
-    color: var(--primary);
+    color: var(--background);
     background: url(../img/icon-shape-white.png);
 }
 
@@ -367,7 +375,7 @@
 
 .service-item:hover h5,
 .service-item:hover p {
-    color: var(--light);
+    color: var(--background);
 }
 
 .service-item a.btn {
@@ -399,3 +407,14 @@
     width: 100%;
     background: var(--light);
 }
+
+
+.cardguh .animate__animated.animate__fadeInLeft:nth-child(1) {
+    --animate-duration: 1s;
+  }
+.cardguh .animate__animated.animate__fadeInLeft:nth-child(2) {
+    --animate-duration: 1s;
+  }
+.cardguh .animate__animated.animate__fadeInLeft:nth-child(3) {
+    --animate-duration: 1s;
+  }
