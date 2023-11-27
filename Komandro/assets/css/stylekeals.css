@@ -4,6 +4,7 @@
     --primary: #51d259;
     --secondary: #baedbd;
     --accent: #2dae36;
+    --animate-delay: 0.5s;
 }
 
 .card.card-carousel {
