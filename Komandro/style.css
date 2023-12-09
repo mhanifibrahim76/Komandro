@@ -128,6 +128,7 @@
     -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
     box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
     border: 1px solid #ebebeb;
+    background: #f7fff6cf;
 }
 @media only screen and (max-width: 575px) {
     .single-timeline-area .single-timeline-content {
